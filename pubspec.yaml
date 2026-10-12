@@ -1,0 +1,31 @@
+name: shop_ledger
+description: "Offline-first POS + inventory app for small shops in Pakistan."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Database — drift (SQLite ORM)
+  drift: ^2.35.0
+  drift_flutter: ^0.3.1   # bundles native SQLite for Windows/Android/iOS; replaces sqlite3_flutter_libs
+  path_provider: ^2.1.6   # locates app documents directory for DB file
+  path: ^1.9.1            # file-path joining utilities
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Drift code generation
+  drift_dev: ^2.35.0
+  build_runner: ^2.16.1
+
+flutter:
+  uses-material-design: true

@@ -14,8 +14,8 @@ Start with ONE shop type (kirana). Other shop types come after the pilot.
 
 ## Phase 1: Foundation
 - [x] 1.1 Create Flutter project with the folder structure from PROJECT_RULES.md, enable Windows desktop, add drift, set up theme. No screens yet.
-- [ ] 1.2 Create all drift tables from `pos_schema.sql` with a shared helper that sets UUID id, updated_at, synced. Add a test that inserts and reads one record.
-- [ ] 1.3 Login screen and user roles (owner/manager/cashier), hashed passwords, default owner created on first run.
+- [x] 1.2 Create all drift tables from `pos_schema.sql` with a shared helper that sets UUID id, updated_at, synced. Add a test that inserts and reads one record.
+- [x] 1.3 Login screen and user roles (owner/manager/cashier), hashed passwords, default owner created on first run.
 - [ ] 1.4 Shop setup screen (name, type, phone, address, receipt footer).
 - [ ] 1.5 Backup and restore (copy database file to a chosen folder / restore from a file).
 - [ ] 1.6 Localization setup (English + Urdu, RTL support).
@@ -68,6 +68,7 @@ Milestone: shopkeeper sees the full day's accounts on one screen.
 - [ ] Collect feedback weekly, log bugs.
 - [ ] Test with real printer, scanner and slow computers.
 - [ ] Fix bugs. Only add features the shopkeepers repeatedly ask for.
+- [ ] Owner password recovery (recovery key) must be solved before the pilot.
 
 Milestone: MVP stable, at least 2 shops using it daily.
 
@@ -101,4 +102,4 @@ Milestone: MVP stable, at least 2 shops using it daily.
 ---
 
 ## Current phase
-Phase 1, Task 1.3
+Phase 1, Task 1.4

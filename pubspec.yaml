@@ -20,6 +20,7 @@ dependencies:
 
   # UUID generation for primary keys
   uuid: ^4.6.0
+  bcrypt: ^1.2.0
 
 dev_dependencies:
   flutter_test:
